@@ -1,5 +1,5 @@
-# 
-
+# README Generator
+this project creates a README document for future projects
 ---
 ## Table of Contents 
 * [Installation](#installation)
@@ -14,11 +14,11 @@
 
 ## Installation
 
-
+npm i
 
 ## Usage
 
-
+this is used soley for the purpose of README files
 
 
 ## License 
@@ -26,7 +26,8 @@ MIT
 
 
 ## Tests
-
+<img src="https://img.shields.io/static/v1?label=<LABEL>&message=<working>&color=<blue>">
+run test
 
 ## Questions 
 
@@ -36,6 +37,6 @@ MIT
      height="100px"
      width="100px"/>
 
-   Email: 
+   Email: null
 
    Feel free to contact me if you have any questions! 

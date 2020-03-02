@@ -56,8 +56,7 @@ inquirer
         const queryUrl = `https://api.github.com/users/${answers.username}`;
         console.log(queryUrl)
         axios.get(queryUrl).then(function (user) {
-            console.log(user.data)
-
+            console.log(user.data.email)
             const readMe = `# ${answers.projectname}
 ${answers.description}
 ---
@@ -86,6 +85,7 @@ ${answers.license}
 
 
 ## Tests
+<img src="https://img.shields.io/static/v1?label=<LABEL>&message=<working>&color=<blue>">
 ${answers.runtest}
 
 ## Questions 
@@ -96,7 +96,7 @@ ${answers.runtest}
      height="100px"
      width="100px"/>
 
-   Email: 
+   Email: ${user.data.email}
 
    Feel free to contact me if you have any questions! 
 `;
